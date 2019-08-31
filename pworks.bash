@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-
 [ -z $1 ] && day=today || day=$1
+################################################################################
 
 workspaces="${HOME}/workspaces"
 case $day in
